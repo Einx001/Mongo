@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "68cc815acf7e862893960336"
+  },
+  "id": 1,
+  "Nombre": "Arroz",
+  "Marca": "Exito",
+  "Precio": 1000
+},
+{
+  "_id": {
+    "$oid": "68cc8177cf7e862893960338"
+  },
+  "id": 2,
+  "Nombre": "Computador",
+  "Marca": "Hp",
+  "Precio": 2500000
+},
+{
+  "_id": {
+    "$oid": "68cc81c5cf7e86289396033a"
+  },
+  "id": 3,
+  "Nombre": "Fideos",
+  "Marca": "Econo",
+  "Precio": 2500
+}]

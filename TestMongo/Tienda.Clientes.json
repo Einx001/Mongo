@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "68cc808bcf7e86289396032f"
+  },
+  "id": 1,
+  "nombre": "Arturo",
+  "apellido": "Restrepo",
+  "Correo": "restrepoarturo1103@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "68cc8092cf7e862893960331"
+  },
+  "id": 2,
+  "nombre": "Kike",
+  "apellido": "Cajas",
+  "Correo": "Kike18@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "68cc80c2cf7e862893960333"
+  },
+  "id": 3,
+  "nombre": "Stiven",
+  "apellido": "Gomez",
+  "Correo": "StivenInsano@gmail.com"
+}]
