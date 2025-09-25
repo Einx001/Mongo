@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1001,
+    "cliente": {
+      "nombre": "Ana Torres",
+      "email": "ana.torres@gmail.com",
+      "telefono": "+54 11 9876 5432"
+    },
+    "fecha_pedido": { "$date": "2025-09-24T11:00:00Z" },
+    "productos": [
+      {
+        "producto_id": 1,
+        "nombre": "Manzana",
+        "cantidad": 10,
+        "precio_unitario": 1.99
+      },
+      {
+        "producto_id": 2,
+        "nombre": "Leche deslactosada",
+        "cantidad": 2,
+        "precio_unitario": 9.00
+      }
+    ],
+    "total": 37.90
+  },
+  {
+    "_id": 1002,
+    "cliente": {
+      "nombre": "Carlos Romero",
+      "email": "carlos.romero@hotmail.com",
+      "telefono": "+54 261 123 4567"
+    },
+    "fecha_pedido": { "$date": "2025-09-22T15:30:00Z" },
+    "productos": [
+      {
+        "producto_id": 3,
+        "nombre": "Mouse Logitech MX Master 3",
+        "cantidad": 1,
+        "precio_unitario": 120.50
+      },
+      {
+        "producto_id": 4,
+        "nombre": "Teclado Mecánico Redragon Kumara",
+        "cantidad": 1,
+        "precio_unitario": 80.00
+      }
+    ],
+    "total": 200.50
+  },
+  {
+    "_id": 1003,
+    "cliente": {
+      "nombre": "Mariana López",
+      "email": "mariana.lopez@correo.com",
+      "telefono": "+54 341 456 7890"
+    },
+    "fecha_pedido": { "$date": "2025-09-20T10:45:00Z" },
+    "productos": [
+      {
+        "producto_id": 5,
+        "nombre": "Monitor LG UltraWide 29 pulgadas",
+        "cantidad": 1,
+        "precio_unitario": 350.00
+      },
+      {
+        "producto_id": 6,
+        "nombre": "Disco SSD Kingston 1TB",
+        "cantidad": 2,
+        "precio_unitario": 110.75
+      }
+    ],
+    "total": 571.50
+  },
+  {
+    "_id": 1004,
+    "cliente": {
+      "nombre": "Sofía Martínez",
+      "email": "sofia.martinez@example.com",
+      "telefono": "+54 11 2345 6789"
+    },
+    "fecha_pedido": { "$date": "2025-09-25T09:20:00Z" },
+    "productos": [
+      {
+        "producto_id": 7,
+        "nombre": "Impresora HP LaserJet Pro",
+        "cantidad": 1,
+        "precio_unitario": 250.00
+      },
+      {
+        "producto_id": 1,
+        "nombre": "Manzana",
+        "cantidad": 5,
+        "precio_unitario": 1.99
+      }
+    ],
+    "total": 259.95
+  },
+  {
+    "_id": 1005,
+    "cliente": {
+      "nombre": "Diego Álvarez",
+      "email": "diegoalvarez@correo.com",
+      "telefono": "+54 351 321 6543"
+    },
+    "fecha_pedido": { "$date": "2025-09-23T13:10:00Z" },
+    "productos": [
+      {
+        "producto_id": 8,
+        "nombre": "Tablet Apple iPad 10.2\"",
+        "cantidad": 1,
+        "precio_unitario": 460.00
+      },
+      {
+        "producto_id": 9,
+        "nombre": "Auriculares Sony WH-1000XM5",
+        "cantidad": 1,
+        "precio_unitario": 399.99
+      }
+    ],
+    "total": 859.99
+  }
+]

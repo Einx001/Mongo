@@ -1,0 +1,190 @@
+[
+  {
+    "id" : 1,
+    "nombre": "Manzana",
+    "descripcion": "Manzana roja fresca",
+    "precio": 1.99,
+    "stock": 150,
+    "categoria": "Frutas",
+    "proveedor": {
+      "nombre": "FruitSupplier S.A.",
+      "contacto": {
+        "email": "ventas@fruitsupplier.com",
+        "telefono": "+54 11 1234 5678"
+      },
+      "direccion": {
+        "calle": "Av. Corrientes 1234",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-01T00:00:00Z" }
+  },
+  {
+    "id" : 2,
+    "nombre": "Leche deslactosada",
+    "descripcion": "Leche sin lactosa",
+    "precio": 9.00,
+    "stock": 60,
+    "categoria": "Lacteo",
+    "proveedor": {
+      "nombre": "Distribuciones Lacteas SRL",
+      "contacto": {
+        "email": "contacto@dmsrl.com",
+        "telefono": "+54 351 555 7890"
+      },
+      "direccion": {
+        "calle": "Bv. San Juan 456",
+        "ciudad": "Córdoba",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-08-20T00:00:00Z" }
+  },
+  {
+    "id" : 3,
+    "nombre": "Mouse Logitech MX Master 3",
+    "descripcion": "Mouse inalámbrico ergonómico para productividad",
+    "precio": 120.50,
+    "stock": 50,
+    "categoria": "Periféricos",
+    "proveedor": {
+      "nombre": "Accesorios PC SA",
+      "contacto": {
+        "email": "ventas@accesoriospc.com.ar",
+        "telefono": "+54 11 7890 1234"
+      },
+      "direccion": {
+        "calle": "Av. Rivadavia 2020",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-10T00:00:00Z" }
+  },
+  {
+    "id" : 4,
+    "nombre": "Teclado Mecánico Redragon Kumara",
+    "descripcion": "Teclado mecánico con retroiluminación RGB",
+    "precio": 80.00,
+    "stock": 60,
+    "categoria": "Periféricos",
+    "proveedor": {
+      "nombre": "Gaming World SRL",
+      "contacto": {
+        "email": "ventas@gamingworld.com",
+        "telefono": "+54 261 333 4455"
+      },
+      "direccion": {
+        "calle": "Mitre 890",
+        "ciudad": "Mendoza",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-12T00:00:00Z" }
+  },
+  {
+    "id" : 5,
+    "nombre": "Monitor LG UltraWide 29 pulgadas",
+    "descripcion": "Monitor IPS con resolución 2560x1080",
+    "precio": 350.00,
+    "stock": 20,
+    "categoria": "Monitores",
+    "proveedor": {
+      "nombre": "VisionTech Distribuciones",
+      "contacto": {
+        "email": "info@visiontech.com",
+        "telefono": "+54 341 777 9988"
+      },
+      "direccion": {
+        "calle": "Av. Pellegrini 321",
+        "ciudad": "Rosario",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-15T00:00:00Z" }
+  },
+  {
+    "id" : 6,
+    "nombre": "Disco SSD Kingston 1TB",
+    "descripcion": "Unidad de estado sólido SATA III",
+    "precio": 110.75,
+    "stock": 100,
+    "categoria": "Almacenamiento",
+    "proveedor": {
+      "nombre": "CompuPartes SRL",
+      "contacto": {
+        "email": "soporte@compupartes.com.ar",
+        "telefono": "+54 11 4321 8765"
+      },
+      "direccion": {
+        "calle": "Florida 876",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-05T00:00:00Z" }
+  },
+  {
+    "id" : 7,
+    "nombre": "Impresora HP LaserJet Pro",
+    "descripcion": "Impresora láser monocromática para oficina",
+    "precio": 250.00,
+    "stock": 12,
+    "categoria": "Impresoras",
+    "proveedor": {
+      "nombre": "Oficina Total SRL",
+      "contacto": {
+        "email": "ventas@oficinatotal.com",
+        "telefono": "+54 11 4000 6000"
+      },
+      "direccion": {
+        "calle": "Alsina 234",
+        "ciudad": "La Plata",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-08-30T00:00:00Z" }
+  },
+  {
+    "id" : 8,
+    "nombre": "Tablet Apple iPad 10.2\"",
+    "descripcion": "Tablet con chip A13 Bionic y pantalla Retina",
+    "precio": 460.00,
+    "stock": 25,
+    "categoria": "Tablets",
+    "proveedor": {
+      "nombre": "Apple Distribuidor Oficial",
+      "contacto": {
+        "email": "contacto@appledo.com",
+        "telefono": "+54 11 4567 1234"
+      },
+      "direccion": {
+        "calle": "Av. Libertador 1000",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-18T00:00:00Z" }
+  },
+  {
+    "id" : 9,
+    "nombre": "Auriculares Sony WH-1000XM5",
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido",
+    "precio": 399.99,
+    "stock": 40,
+    "categoria": "Audio",
+    "proveedor": {
+      "nombre": "Audio Pro S.A.",
+      "contacto": {
+        "email": "ventas@audiopro.com",
+        "telefono": "+54 11 5678 4321"
+      },
+      "direccion": {
+        "calle": "Callao 789",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      }
+    },
+    "fecha_ingreso": { "$date": "2025-09-22T00:00:00Z" }
+}]
